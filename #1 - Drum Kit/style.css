@@ -1,0 +1,55 @@
+body, html {
+  font-family: 'sans';
+  font-size: 10px;
+  background: #080810;
+  user-select: none;
+}
+
+#title {
+  font-size: 5.5rem;
+  color: #FEFFE2;
+  font-family: "Arvo", cursive;
+  text-align: center;
+} 
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 40vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 2px solid white;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background-color: #212121;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #d4b8f6;
+  box-shadow: 0 0 1rem #d4b8f6;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.sound {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #d9befa;
+  font-family: "Arvo", cursive;
+}
